@@ -49,11 +49,10 @@ After starting the virtual machine, I accessed the GNS3 web interface through th
 
 
 ![GNS3-Installation](Week-01/images/GNS3-download.png)
+
 The following screenshot shows the GNS3 virtual machine running successfully.
 
-<p align="left">
-  <img src="images/GNS3-VM.png" width="500">
-</p>
+![GNS3-Installation](Week-01/images/GNS3-download.png)
 
 ---
 
@@ -61,19 +60,15 @@ The following screenshot shows the GNS3 virtual machine running successfully.
 
 I created a new project workspace in GNS3 and added descriptive text to make the purpose of the project easier to identify.
 
-<p align="left">
-  <img src="images/project-text.png" width="500">
-</p>
+![GNS3-Installation](Week-01/images/GNS3-download.png)
 
 Next, I added a **Linux Host** to the workspace. I renamed the host and labelled it with the static IP address that I planned to configure.
 
 The IP address used for the Linux Host was:
 
-`10.10.1.1/24`
+`10.10.1.1`
 
-<p align="left">
-  <img src="images/Linux-host.png" width="500">
-</p>
+![GNS3-Installation](Week-01/images/GNS3-download.png)
 
 ---
 
@@ -83,9 +78,7 @@ Before starting the Linux Host, I accessed the following network configuration f
 
 `/etc/network/interfaces`
 
-<p align="left">
-  <img src="images/config-IP2.png" width="500">
-</p>
+![GNS3-Installation](Week-01/images/GNS3-download.png)>
 
 I configured the network interface with the following static IP settings:
 
@@ -93,23 +86,8 @@ I configured the network interface with the following static IP settings:
 |---|---|
 | IP Address | `10.10.1.1` |
 | Subnet Mask | `255.255.255.0` |
-| CIDR Prefix | `/24` |
 
-The completed configuration can be seen below.
 
-<p align="left">
-  <img src="images/config-IP.png" width="500">
-</p>
 
-The `/24` prefix indicates that the host is part of the `10.10.1.0/24` network.
 
----
 
-## Step 4 - Verification
-
-After completing the configuration, I started the Linux Host and opened a terminal to verify that the static IP address had been applied correctly.
-
-I used the following command:
-
-```bash
-ip address show
