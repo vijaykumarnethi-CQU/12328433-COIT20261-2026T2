@@ -45,12 +45,10 @@ I downloaded and installed **GNS3** and configured the GNS3 environment to work 
 
 After starting the virtual machine, I accessed the GNS3 web interface through the browser using:
 
-`http://192.168.56.102/`
+`http://192.168.56.101/`
 
-<p align="left">
-  <img src="images/GNS3-download.png" width="500">
-</p>
 
+![GNS3-Installation](Week-01/images/GNS3-download.png)
 The following screenshot shows the GNS3 virtual machine running successfully.
 
 <p align="left">
