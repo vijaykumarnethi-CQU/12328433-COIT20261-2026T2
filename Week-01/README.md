@@ -48,7 +48,7 @@ After starting the virtual machine, I accessed the GNS3 web interface through th
 `http://192.168.56.101/`
 
 
-![GNS3-Installation](Week-01/images/GNS3-download.png)
+![GNS3-Installation](12328433-COIT20261-2026T2/Week-01/images/GNS3-download.png)
 
 The following screenshot shows the GNS3 virtual machine running successfully.
 
