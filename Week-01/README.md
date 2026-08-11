@@ -60,15 +60,14 @@ The following screenshot shows the GNS3 virtual machine running successfully.
 
 I created a new project workspace in GNS3 and added descriptive text to make the purpose of the project easier to identify.
 
-![GNS3-Installation](images/Myworkspace.png)
-
 Next, I added a **Linux Host** to the workspace. I renamed the host and labelled it with the static IP address that I planned to configure.
 
 The IP address used for the Linux Host was:
 
 `10.10.1.1`
 
-![GNS3-Installation](images/GNS3-download.png)
+![GNS3-Installation](images/Myworkspace.png)
+
 
 ---
 
