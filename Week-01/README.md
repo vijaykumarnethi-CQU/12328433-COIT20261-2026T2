@@ -77,7 +77,7 @@ Before starting the Linux Host, I accessed the following network configuration f
 
 `/etc/network/interfaces`
 
-![GNS3-Installation](images/Network-Configuration.png)>
+![GNS3-Installation](images/Network-Configuration1.png)>
 
 I configured the network interface with the following static IP settings:
 
