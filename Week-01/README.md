@@ -92,7 +92,6 @@ After completing the configuration, I started the Linux Host and opened a termin
 
 I used the following command:
 
-```bash
 ip address show
 
 ![GNS3-Installation](images/Verification.png)
