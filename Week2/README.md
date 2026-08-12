@@ -28,13 +28,13 @@ Four Linux Hosts were connected to one Ethernet switch to create a LAN.
 
 I configured Host 1 directly using **GNS3 Configure interface**
 
-![Host1-configuration](images/Host1-congiguration.png)
+![Host1-configuration](images/Host1-configuration.png)
 
 ### Host 2 Configuration
 
 I also configured Host 2 directly using **GNS3 Configure interface**
 
-![Host2-configuration](images/Host2-congiguration.png)
+![Host2-configuration](images/Host2-configuration.png)
 
 ### Host 3 Configuration
 
@@ -50,7 +50,7 @@ iface eth0 inet static
     address 10.1.1.3
     netmask 255.255.255.0
 ```
-![Host3-configuration](images/Host3-congiguration.png)
+![Host3-configuration](images/Host3-configuration.png)
 
 I then reloaded the interface:
 
@@ -66,7 +66,7 @@ I configured Host 4 using:
 ```bash
 ip address add 10.1.1.4/24 dev eth0
 ```
-![Host4-configuration](images/Host4-congiguration.png)
+![Host4-configuration](images/Host4-configuration.png)
 
 ### IP Address Verification
 
