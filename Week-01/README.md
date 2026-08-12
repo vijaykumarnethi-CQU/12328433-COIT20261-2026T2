@@ -77,7 +77,7 @@ Before starting the Linux Host, I accessed the following network configuration f
 
 `/etc/network/interfaces`
 
-![GNS3-Installation](images/Network-Configuration1.png)>
+![GNS3-Installation](images/Network-Configuration1.png)
 
 I configured the network interface with the following static IP settings:
 
@@ -85,6 +85,17 @@ I configured the network interface with the following static IP settings:
 |---|---|
 | IP Address | `10.10.1.1` |
 | Subnet Mask | `255.255.255.0` |
+
+## Step 4 - Verification
+
+After completing the configuration, I started the Linux Host and opened a terminal to verify that the static IP address had been applied correctly.
+
+I used the following command:
+
+```bash
+ip address show
+
+![GNS3-Installation](images/Verification.png)
 
 
 
