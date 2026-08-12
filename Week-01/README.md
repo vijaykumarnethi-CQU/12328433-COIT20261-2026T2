@@ -97,6 +97,15 @@ ip address show
 ![GNS3-Installation](images/Verification.png)
 
 
+## Reflection
+
+This lab gave me my first practical experience with GNS3 and configuring a Linux Host in a virtual networking environment.
+
+I learned how to create a basic GNS3 project, add a Linux Host, and configure a static IPv4 address through the /etc/network/interfaces file. I also learned that verifying a configuration is an important part of network administration.
+
+Using command  **ip address show**  allowed me to inspect the network interface directly from the Linux terminal and confirm that the settings matched the configuration I had entered.
+
+Overall, this activity helped me build a foundation in GNS3 and Linux networking. It also gave me practical experience with configuring and verifying IP addresses, which will be useful for more advanced networking activities in future labs.
 
 
 
