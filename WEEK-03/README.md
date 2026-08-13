@@ -24,7 +24,7 @@ nc 10.1.1.2 18263
 
 I sent my name from the client to the server and my student ID from the server to the client.
 
-![Netcat Client and Server](images/Netcat-Basics-client-server.png)
+![Netcat Client and Server](images/Netcat-client-server.png)
 
 ## Task 2 - Packet Capture
 
