@@ -26,15 +26,28 @@ I also used `ping` to test connectivity between hosts on different subnets.
 
 ### Network Topology
 
-![View Routes Network](View-Routes-<studentid>-network.png)
+![View Routes Network](./images/NetworkTopology.png)
 
 ### IP Addresses and Routing Tables
 
-![Routing Tables](View-Routes-<studentid>-routing.png)
+Ip addresses and routing tables of each hosts and router is displayed below:
+
+
+#### Host-1:
+![host-1](./images/host1.png)
+
+#### Host-2:
+![host-2](./images/host2.png)
+
+#### Router:
+![Router](./images/router.png)
+
+#### Host-3:
+![host-3](./images/host3.png)
 
 ### Successful Ping
 
-![Successful Ping](View-Routes-<studentid>-ping.png)
+![Successful Ping](./images/ping.png)
 
 ---
 
@@ -49,13 +62,13 @@ The topology provided two possible paths between Host1 and Host2.
 The two paths were:
 
 ```text
-Host1 → FRR-1 → FRR-2 → NETem1 → FRR-4 → Host2
+Host1 → FRR-1 → FRR-3 → NETem2 → FRR-4 → Host2
 ```
 
 and
 
 ```text
-Host1 → FRR-1 → FRR-3 → NETem2 → FRR-4 → Host2
+Host1 → FRR-1 → FRR-2 → NETem1 → FRR-4 → Host2
 ```
 
 I used the following FRR commands to view OSPF and routing information:
