@@ -79,31 +79,54 @@ show ip ospf route
 show ip route
 ```
 
+### OSPF Topology
+
+![OSPF Topology](./images/ospftopology.png)
+
 ### OSPF Neighbours
 
 I used `show ip ospf neighbor` on FRR-1 to view its neighbouring routers.
 
-![OSPF Neighbours](OSPF-Basics-<studentid>-FRR1-neighbor.png)
+![OSPF Neighbors](./images/frr1neighbor.png)
 
 ### Routing Information
 
 I used `show ip ospf route` and `show ip route` to view the routes maintained by OSPF and the Linux routing table.
 
-![Routing Table](OSPF-Basics-<studentid>-FRR1-route.png)
+#### OSPF Route Table of FRR-1:
+
+![OSPF Routing Table](./images/ospfroutingtable-1.png)
+
+#### Route Table of FRR-1:
+
+![Routing Table-1](./images/rotetable-1.png)
+
+#### Route Table of FRR-2:
+
+![Routing Table-2](./images/routetable-2.png)
+
+#### Route Table of FRR-3:
+
+![Routing Table-3](./images/routetable-3.png)
+
+#### Route Table of FRR-4:
+
+![Routing Table-4](./images/routetable-4.png)
+
 
 ### Traceroute Before Link Failure
 
 I used `traceroute` from Host1 to Host2 to identify the path currently selected by OSPF.
 
 ```bash
-traceroute <Host2-IP>
+traceroute 10.10.6.102
 ```
 
-![Traceroute Before Link Failure](OSPF-Basics-<studentid>-traceroute-before.png)
+![Traceroute Before Link Failure](./images/traceroutebefore.png)
 
 ### Link Failure
 
-I stopped the NETem node that was part of the active path between Host1 and Host2.
+I stopped the NETem node (i.e NETem2) that was part of the active path between Host1 and Host2.
 
 OSPF detected the link failure and selected the alternative available path.
 
@@ -112,10 +135,10 @@ OSPF detected the link failure and selected the alternative available path.
 I ran traceroute again from Host1 to Host2 to observe the new path selected by OSPF.
 
 ```bash
-traceroute <Host2-IP>
+traceroute 10.10.6.102
 ```
 
-![Traceroute After Link Failure](OSPF-Basics-<studentid>-traceroute-after.png)
+![Traceroute After Link Failure](./images/tracerouteafter.png)
 
 ---
 
